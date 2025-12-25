@@ -24,7 +24,7 @@ const Hero = () => {
         size={20}
         />
             </div>
-            <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">Frontend / Full-Stack <br /> JavaScript Developer</h1>
+            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-zinc-100">Frontend / Full-Stack <br /> JavaScript Developer</h1>
             <p className="text-gray-400 w-full xl:max-w-[900px] mt-6">Passionate software designer and entrepreneur with a love for exploring new technologies and the universe. Experienced in creating innovative solutions and building projects from concept to launch.</p>
             <div className="flex items-center gap-6 mt-6">
                 <ul className="flex items-center gap-5">

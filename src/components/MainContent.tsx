@@ -102,17 +102,23 @@ const MainContent = () => {
     <div className="py-16 flex flex-col lg:flex-row items-start gap-[3rem] border-b border-gray-600">
       <div className="w-full lg:w-[11rem] grid grid-cols-3 lg:grid-cols-1 gap-5 lg:sticky md:top-5 transition">
         {filters.map((filter) => (
-          <button
-            key={filter}
-            onClick={() => setActive(filter)}
-            className={`bg-[#252430] py-2 w-full rounded-md text-white font-semibold text-lg transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#7611fa] ${
-              active === filter
-                ? "border-2 border-[#7611fa] opacity-100"
-                : "opacity-60 hover:opacity-90"
-            }`}
-          >
-            {filter.replace("_", " ").toUpperCase()}
-          </button>
+          // <button
+          //   key={filter}
+          //   onClick={() => setActive(filter)}
+          //   className={`bg-[#252430] py-2 w-full rounded-md text-white font-semibold text-lg transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#7611fa] ${
+          //     active === filter
+          //       ? "border-2 border-[#7611fa] opacity-100"
+          //       : "opacity-60 hover:opacity-90"
+          //   }`}
+          // >
+          //   {filter.replace("_", " ").toUpperCase()}
+          // </button>
+          <button 
+          key={filter}
+          onClick={() => setActive(filter)}
+          className={`flex items-center gap-2.5 border border-gray-500/30 px-3 justify-center py-2 text-sm text-gray-300 rounded bg-[#252430] hover:text-blue-400 hover:bg-blue-400/10 hover:border-blue-400/30 active:scale-95 transition ${active === filter && "border-blue-400/30 bg-blue-400/10 text-blue-400"}`}>
+                {filter.replace("_", " ").toUpperCase()}
+            </button>
         ))}
       </div>
 

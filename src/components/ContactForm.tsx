@@ -45,7 +45,7 @@ const ContactForm = () => {
         />
     </div>
     <button
-    className="bg-[#252430] py-3 w-[11rem] border border-gray-600 transition rounded text-white disabled:cursor-not-allowed disabled:pointer-events-none disabled:opacity-[0.6]"
+    className="bg-[#252430] hover:text-blue-400 hover:bg-blue-400/10 hover:border-blue-400/30 py-3 w-[11rem] border border-gray-600 transition rounded text-white disabled:cursor-not-allowed disabled:pointer-events-none disabled:opacity-[0.6]"
     type="submit" disabled={state.submitting}>
         {state.submitting? "Submitting...": "Submit"}
     </button>

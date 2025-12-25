@@ -6,7 +6,7 @@ import {FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 import developerAnimation from "../../public/animation/developerAnimation.json";
 import { LuCloudDownload } from "react-icons/lu";
 
-const Hearo = () => {
+const Hero = () => {
   return (
     <div className="mt-16 grid grid-cols-3">
         <div className="lg:col-span-2 col-span-3">
@@ -58,4 +58,4 @@ const Hearo = () => {
   )
 }
 
-export default Hearo
+export default Hero

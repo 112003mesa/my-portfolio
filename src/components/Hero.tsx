@@ -38,17 +38,19 @@ const Hero = () => {
                     <a target="_blank" href="https://www.facebook.com/mohamed.mesa.10"><FaFacebook className="text-2xl text-gray-400 hover:text-[#fff] transition" /></a>
                 </li>
                 </ul>
-                <button 
-                onClick={() => window.open("/Mohamed_Khamis_Frontend_FullStack.pdf")}
-                type="button" 
-                className="flex items-center justify-between relative overflow-hidden text-gray-100/80 rounded active:scale-95 transition text-sm h-10 w-36 pr-7 truncate hover:bg-[#7e1cff] bg-[#7611fa] duration-300 border border-gray-500/30">
+                <a
+                href="/Mohamed_Khamis_Frontend_FullStack.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between relative overflow-hidden text-gray-100/80 rounded active:scale-95 transition text-sm h-10 w-36 pr-7 truncate hover:bg-[#7e1cff] bg-[#7611fa] duration-300 border border-gray-500/30"
+                >
                 <div className="bg-gray-100/30 h-6 w-1 -ml-px rounded-r-sm absolute"></div>
                 <div className="bg-gray-100/30 h-6 w-1 -mr-px right-0 rounded-l-sm absolute"></div>
                 <div className="h-full flex items-center justify-center px-3 text-xl">
                     <LuCloudDownload />
                 </div>
-                Download CV
-            </button>
+                My Resume
+                </a>
             </div>
         </div>
         <div className="flex lg:col-span-1 col-span-3 mt-4 lg:mt-0 items-center justify-center">

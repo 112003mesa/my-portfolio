@@ -21,9 +21,9 @@ const MainContent = () => {
       name: "Full Stack Admin Dashboard Forever",
       description: "An admin dashboard for managing products and users with demo access.",
       techStack: ["React", "TypeScript", "Node.js", "Tailwind CSS"],
-      link: "https://your-habit-tracker.com",
-      githubLink: "https://github.com/mesa10",
-      image: "/image/instant.png", // Updated image path
+      link: "https://ecommerce-full-stack-admin.vercel.app/",
+      githubLink: "https://github.com/112003mesa/Ecommerce_FullStack-Admin",
+      image: "/image/instant.png",
       skilsFilter: ["react", "node"],
     },
     {

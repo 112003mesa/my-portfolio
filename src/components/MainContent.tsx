@@ -40,7 +40,7 @@ const MainContent = () => {
       id: 3,
       name: "Shopsy Website",
       description: "An online store for viewing products and shopping online",
-      techStack: ["React.js", "TypeScript", "Node.js", "Tailwind CSS"],
+      techStack: ["React.js", "Tailwind CSS"],
       link: "https://shopsy-seven-pi.vercel.app/",
       githubLink: "https://github.com/112003mesa/Shopsy/",
       image: "/image/Shopsy.png", // Updated image path
@@ -85,6 +85,16 @@ const MainContent = () => {
       githubLink: "https://github.com/112003mesa/Ecommerce-App",
       image: "/image/user.png", // Updated image path
       skilsFilter: ["react"],
+    },
+    {
+      id: 8,
+      name: "PIZZA HUB",
+      description: "A website for ordering pizza and making reservations",
+      techStack: ["React.js", "TypeScript", "Tailwind CSS", "Node.js"],
+      link: "https://pizzahub-frontend-one.vercel.app/",
+      githubLink: "https://github.com/112003mesa/PIZZAHUB-Frontend",
+      image: "/image/PIZZAHUB.png", // Updated image path
+      skilsFilter: ["react", "node"],
     },
   ];
 

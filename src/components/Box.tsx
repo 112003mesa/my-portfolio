@@ -35,7 +35,7 @@ const Box: React.FC<BoxProps> = ({ name, description, techStack, link, image, gi
         <div className="mt-3 flex items-center gap-1 text-gray-300">
           Skils:
           {techStack.map((stack) => (
-            <span key={stack} className="text-gray-400 text-[13px]">{stack}</span>
+            <span key={stack} className="text-gray-400 text-[12px]">{stack}</span>
           ))}
         </div>
         <div className="mt-4 flex items-center justify-between">

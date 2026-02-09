@@ -39,7 +39,7 @@ const Hero = () => {
                 </li>
                 </ul>
                 <a
-                href="/Mohamed_Khamis_Frontend_FullStack.pdf"
+                href="/Mohamed-Khamis-FlowCV-Resume-20260209.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-between relative overflow-hidden text-gray-100/80 rounded active:scale-95 transition text-sm h-10 w-36 pr-7 truncate hover:bg-[#7e1cff] bg-[#7611fa] duration-300 border border-gray-500/30"
